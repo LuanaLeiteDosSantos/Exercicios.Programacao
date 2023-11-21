@@ -22,5 +22,5 @@ RespostaMs = RespostaKm / 3.6;
 
 Console.Clear();
 
-Console.WriteLine($"A velocidade média durante a viagem foi de  {RespostaKm} Km/h.");
-Console.WriteLine($"A velocidade média durante a viagem foi de  {RespostaMs.ToString("F2")} m/s.");
+Console.WriteLine($"A velocidade média durante a viagem foi de {RespostaKm} Km/h.");
+Console.WriteLine($"A velocidade média durante a viagem foi de {RespostaMs.ToString("F2")} m/s.");
