@@ -19,12 +19,12 @@ do
 
     if (opcao == 1)
     {
-        
+
         Console.WriteLine("Insira seu nome");
         nome = Console.ReadLine();
         nomes.Add(nome);
 
-        
+
         Console.WriteLine("Insira sua idade");
         idade = Convert.ToInt32(Console.ReadLine());
         idades.Add(idade);
@@ -42,26 +42,10 @@ do
     }
     else if (opcao == 2)
     {
-        foreach(var item in nomes)
+        for (int i = 0; i < nomes.Count; i++)
         {
-            Console.WriteLine($"Nome: {item}");
-        }
-
-        foreach (var item in idades)
-        {
-            Console.WriteLine($"Idade : {item}");
-        }
-
-        foreach (string item in ListaCompromisso)
-        {
-            Console.WriteLine($"Compromisso: {item}");
-        }
-
-        foreach (var item in datasEHora)
-        {
-            Console.WriteLine($"Data e hora : {item}");
+            Console.WriteLine($"{nomes[i]} - {idades[i]} - {ListaCompromisso[i]} - {datasEHora[i]}");
         }
     }
-} while (opcao != 3 );
-
+} while (opcao != 3);
 
