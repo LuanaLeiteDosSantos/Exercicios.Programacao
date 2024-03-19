@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Converter", "Converter\Conv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sorteador.Numeros", "Sorteador.Numeros\Sorteador.Numeros.csproj", "{60CCC911-89F2-4F6D-AD00-390A7DEF6744}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora.Objetos", "Calculadora.Objetos\Calculadora.Objetos.csproj", "{F25521B6-A9C0-4E80-B603-94E344BBCB3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculadora.Objetos", "Calculadora.Objetos\Calculadora.Objetos.csproj", "{F25521B6-A9C0-4E80-B603-94E344BBCB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosCrescente", "NumerosCrescente\NumerosCrescente.csproj", "{62BD5B1C-ACB2-4B2F-B8EA-C720C2B9AD9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{F25521B6-A9C0-4E80-B603-94E344BBCB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F25521B6-A9C0-4E80-B603-94E344BBCB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F25521B6-A9C0-4E80-B603-94E344BBCB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62BD5B1C-ACB2-4B2F-B8EA-C720C2B9AD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62BD5B1C-ACB2-4B2F-B8EA-C720C2B9AD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62BD5B1C-ACB2-4B2F-B8EA-C720C2B9AD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62BD5B1C-ACB2-4B2F-B8EA-C720C2B9AD9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
